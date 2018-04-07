@@ -1,0 +1,59 @@
+dbda@ACTS66:~/dataset/Code> python kaggle_img_tensor_ready_16000iter_batch16_withPool.py 
+Full dataset tensor: (57657, 28, 28)
+Label of dataset:  (57657,)
+Mean: 0.49015
+Standard deviation: 0.249404
+Full dataset tensor: (6576, 28, 28)
+Label of dataset:  (6576,)
+Mean: 0.500332
+Standard deviation: 0.245935
+Full dataset tensor: (6177, 28, 28)
+Label of dataset:  (6177,)
+Mean: 0.489069
+Standard deviation: 0.249652
+Training set (57657, 28, 28, 1) (57657, 7)
+Validation set (6177, 28, 28, 1) (6177, 7)
+Test set (6576, 28, 28, 1) (6576, 7)
+Initialized
+Minibatch loss at step 0: 3.693719
+Minibatch accuracy: 9.4%
+Validation accuracy: 25.3%
+Minibatch loss at step 2000: 1.719000
+Minibatch accuracy: 28.1%
+Validation accuracy: 36.2%
+Minibatch loss at step 4000: 1.451431
+Minibatch accuracy: 50.0%
+Validation accuracy: 36.9%
+Minibatch loss at step 6000: 1.347095
+Minibatch accuracy: 43.8%
+Validation accuracy: 41.0%
+Minibatch loss at step 8000: 1.396661
+Minibatch accuracy: 50.0%
+Validation accuracy: 42.9%
+Minibatch loss at step 10000: 1.462906
+Minibatch accuracy: 50.0%
+Validation accuracy: 43.9%
+Minibatch loss at step 12000: 1.244038
+Minibatch accuracy: 56.2%
+Validation accuracy: 45.1%
+Minibatch loss at step 14000: 1.475517
+Minibatch accuracy: 43.8%
+Validation accuracy: 47.2%
+Minibatch loss at step 16000: 1.234785
+Minibatch accuracy: 56.2%
+Validation accuracy: 47.3%
+Test accuracy: 49.0%
+
+
+sum of Predicted values with respect to emotion
+444 187 636 1956 1534 935 884
+
+sum of Actual values with respect to emotion
+910 94 910 1721 1136 653 1152
+
+acuracy with respect to emotions
+categories          (0=An, 1=Dis, 2=Fe, 3=Ha, 4=Sa, 5=Sup, 6=Neutral).
+ actual labels count   910 94 910 1721 1136 653 1152
+predicted labels count 444 187 636 1956 1534 935 884
+accuracy               200 63 220 1297 543 448 449
+ 
